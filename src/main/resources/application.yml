@@ -4,3 +4,9 @@ server:
 spring:
   application:
     name: weather-metrics
+
+dynamodb:
+  table-name: weather_metrics
+  registry-table-name: weather_sensor_registry
+  region: us-east-1
+  local: false
